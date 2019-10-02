@@ -1,0 +1,22 @@
+{
+  "name": "2100-notifications-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "CHOKIDAR_USEPOLLING=yes parcel -p 8766 watch index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "2100-server": "https://github.com/2100hq/2100-server.git",
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "styled-components": "^4.4.0"
+  }
+}
