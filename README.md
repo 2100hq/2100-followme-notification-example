@@ -44,6 +44,7 @@ Or you can install web-push globally
 `web-push generate-vapid-keys [--json]`
 
 
+Save the public key to the front end env `publicKey`
 
 ## What to look at
 
@@ -52,11 +53,12 @@ This contains logic for checking againts various browser support for notificatio
 and push states. The browser will need to support all 3 for offline notifications to work. 
 This also shows how to request permissions and start the service worker. 
 
-**app.js**
+**app.js**  
 A simple react app that shows you how to interface with the followme server to persist your
-subscription and send an in app notification. 
+subscription to the server and send an in app notification. Once you send the subscription
+to the server it can now notify the user when things happen.
 
-**worker.js**
+**worker.js**   
 This shows your service worker code and how to intercept push notifications and generate
 a notification to the users device.
 
