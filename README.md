@@ -62,5 +62,9 @@ to the server it can now notify the user when things happen.
 This shows your service worker code and how to intercept push notifications and generate
 a notification to the users device.
 
+**utils.js**
+This contains a single function required for some data conversions for initializing subscription.
+Dont know why its necessary but you need it.
+
 
 
