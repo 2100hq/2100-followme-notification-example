@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "2100-server": "https://github.com/2100hq/2100-server.git",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "react": "^16.9.0",
